@@ -1,13 +1,10 @@
-import { Button } from 'antd';
 import './App.css';
+import SignupLayout from './templates/SignupLayout';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Ant Design React App</h1>
-        <Button type="primary">Primary Button</Button>
-      </header>
+      <SignupLayout/>
     </div>
   );
 }
