@@ -5,9 +5,66 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Signup Layout */
+.signup{
+  height: 100vh;
+}
+.containers{
+ margin-top:10rem ;
+ flex: 6;
+}
+.welcome{
+  font-weight:600;
+  font-size: xx-large;
+}
+.started{
+  margin-top: 0.5rem;
+  font-weight:600 ;
+}
+.or{
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.line{
+  border-top: 1px solid;
+  height: 50%;
+  align-self: flex-end;
+  color: #d0d4e4;
+  width: 50%;
+  margin-left:14.3rem;
+
+}
+.line2{
+  border-top: 1px solid;
+    height: 50%;
+    align-self: flex-end;
+    color: #d0d4e4;
+    width: 50%;
+}
+.login{
+  margin-top: 6rem;
+}
+.right{
+  background-image: url(./assets/signup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 4;
+}
+@media only screen and (max-width: 1024px) {
+  .right{
+    flex: 0;
+  }
+  .containers{
+    flex: 10;
+  }
 }
