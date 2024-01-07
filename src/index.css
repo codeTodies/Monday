@@ -54,3 +54,7 @@ code {
   overflow-clip-margin: content-box;
   overflow: clip;
 }
+
+.layout{
+  margin-top: 4rem;
+}
