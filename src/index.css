@@ -68,3 +68,28 @@ code {
     flex: 10;
   }
 }
+
+/* Create Acc */
+.createAcc{
+  flex: 6;
+  margin-left: 10rem;
+}
+
+.createAcc p{
+  font-size: 1rem;
+  
+}
+.right1 {
+  background-image: url(./assets/CreateAcc.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-grow: 5;
+}
+.continue{
+  margin-top: 6rem;
+}
+@media only screen and (max-width: 1024px) {
+  .right1 {
+    flex: 0;
+  }
+}
