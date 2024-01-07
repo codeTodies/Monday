@@ -16,80 +16,41 @@ code {
 /* Signup Layout */
 .signup{
   height: 100vh;
+  width: 100vw;
+  grid-template-columns: auto 40%;
 }
 .containers{
- margin-top:10rem ;
- flex: 6;
+ margin-top:8rem ;
 }
 .welcome{
   font-weight:600;
-  font-size: xx-large;
+  font-size: 2.2rem;
 }
 .started{
   margin-top: 0.5rem;
-  font-weight:600 ;
+  font-size: 1.2rem;
 }
 .or{
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  width: 100%;
+  gap: 1rem;
 }
 .line{
   border-top: 1px solid;
   height: 50%;
   align-self: flex-end;
   color: #d0d4e4;
-  width: 50%;
-  margin-left:14.3rem;
 
-}
-.line2{
-  border-top: 1px solid;
-    height: 50%;
-    align-self: flex-end;
-    color: #d0d4e4;
-    width: 50%;
 }
 .login{
   margin-top: 6rem;
 }
-.right{
-  background-image: url(./assets/signup.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  flex: 4;
-}
-@media only screen and (max-width: 1024px) {
-  .right{
-    flex: 0;
-  }
-  .containers{
-    flex: 10;
-  }
-}
-
-/* Create Acc */
-.createAcc{
-  flex: 6;
-  margin-left: 10rem;
-}
-
-.createAcc p{
-  font-size: 1rem;
-  
-}
-.right1 {
-  background-image: url(./assets/CreateAcc.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  flex-grow: 5;
-}
-.continue{
-  margin-top: 6rem;
-}
-@media only screen and (max-width: 1024px) {
-  .right1 {
-    flex: 0;
-  }
+.bg img{
+  height: 100%;
+  width: unset;
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
