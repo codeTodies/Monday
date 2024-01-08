@@ -58,3 +58,8 @@ code {
 .layout{
   margin-top: 4rem;
 }
+.ant-radio-wrapper{
+  padding: 0.5rem 1rem;
+  border: 1px solid darkgrey;
+  border-radius: 2rem;
+}
