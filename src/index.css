@@ -50,7 +50,7 @@ code {
 }
 .bg img{
   height: 100%;
-  width: unset;
+  width: 100%;
   overflow-clip-margin: content-box;
   overflow: clip;
 }
@@ -58,8 +58,20 @@ code {
 .layout{
   margin-top: 4rem;
 }
+/* Work and Role */
 .ant-radio-wrapper{
   padding: 0.5rem 1rem;
   border: 1px solid darkgrey;
   border-radius: 2rem;
+}
+
+/* Research */
+.ant-checkbox-wrapper {
+  padding: 0.5rem 1rem;
+  border: 1px solid darkgrey;
+  border-radius: 2rem;
+  margin-top: 10px;
+}
+.btn-continue{
+  margin-top: 12rem;
 }
