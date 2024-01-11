@@ -75,3 +75,21 @@ code {
 .btn-continue{
   margin-top: 12rem;
 }
+
+/* Invite */
+.role{
+  height: 3rem;
+}
+.continue span{
+  color: grey;
+}
+.dropdown-size{
+  font-size: 1rem;
+}
+.dropdown a:hover{
+  background-color: #cce5ff;
+}
+.btnAdd{
+  background-color: transparent;
+  
+}
