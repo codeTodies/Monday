@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from './../assets/googleLogo.png'
-import bg from './../assets/signup.png'
+import logo from './../../assets/googleLogo.png'
+import bg from './../../assets/signup.png'
 import {Input, Button} from 'antd';
 function SignupLayout() {
   return (

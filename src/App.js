@@ -1,14 +1,15 @@
 import './App.css';
-import CreateAcc from './templates/CreateAcc';
-import Invite from './templates/Invite';
-import Research from './templates/Research';
-import SignupLayout from './templates/SignupLayout';
-import WorkAndRole from './templates/WorkAndRole';
+import Research from './templates/SignUp/Research.jsx';
+import SignupLayout from './templates/SignUp/SignupLayout.jsx';
+import WorkAndRole from './templates/SignUp/WorkAndRole.jsx';
+import CreateAcc from './templates/SignUp/CreateAcc.jsx';
+import Invite from './../src/templates/SignUp/Invite.jsx';
+import StartCreate from './templates/CreateBoard/StartCreate.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Invite/>
+      <StartCreate/>
     </div>
   );
 }

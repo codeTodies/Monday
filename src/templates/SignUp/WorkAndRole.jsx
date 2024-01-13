@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
-import { RadioChangeEvent } from 'antd';
-import bg from './../assets/workAndRole.png'
+import bg from './../../assets/workAndRole.png'
 import { RightOutlined } from '@ant-design/icons';
 import {Radio, Button} from 'antd';
-import logo from './../assets/Monday_logo.png';
+import logo from './../../assets/Monday_logo.png';
 function WorkAndRole() {
         const [value,setValue]=useState(0);
         const onChange=(e)=>{
@@ -90,7 +89,7 @@ function WorkAndRole() {
         <div className='layout d-flex flex-column align-items-center'>
             <div className='d-flex flex-column justify-content-center align-item-center'>
                 <div>
-                    <img src={logo} height={50} />
+                    <img src={logo} height={50} alt='logo' />
                 </div>
                 <div className='mt-5 mb-3'>
                     <h3>Hey there, what bring you here today? </h3>

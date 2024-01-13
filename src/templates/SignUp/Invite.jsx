@@ -2,9 +2,9 @@ import React, { useState,useReducer } from 'react'
 import { Button, Input} from 'antd';
 import DropdownType from 'react-bootstrap/Dropdown';
 import Dropdown from 'react-bootstrap/Dropdown';
-import logo from './../assets/dev-logo.png';
+import logo from './../../assets/dev-logo.png';
 import { DownOutlined } from '@ant-design/icons';
-import bg from './../assets/Invite.jpg'
+import bg from './../../assets/Invite.jpg'
 function Invite() {
 const [val,setVal]=useState([]);
 const [pairs, setPairs] = useState([{ value: 'Admin' }]);

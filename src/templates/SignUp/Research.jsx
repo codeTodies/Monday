@@ -1,9 +1,9 @@
 import React from 'react'
 import { RadioChangeEvent } from 'antd';
-import bg from './../assets/research.jpg'
+import bg from './../../assets/research.jpg'
 import { RightOutlined,LeftOutlined } from '@ant-design/icons';
 import { Checkbox, Col, Row , Button} from 'antd';
-import logo from './../assets/Monday_logo.png';
+import logo from './../../assets/Monday_logo.png';
 function Research() {
   const onChange = (checkedValues) => {
   console.log('checked = ', checkedValues);

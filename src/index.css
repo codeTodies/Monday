@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -93,3 +94,49 @@ code {
   background-color: transparent;
   
 }
+
+/* StartCreate */
+.content{
+  height: 31.875rem;
+  width: 27.5rem;
+}
+.tip div{
+  background-color:#f6f7fb ;
+}
+.table-bg{
+  background-color: hsl(230deg 42.86% 97.25%);
+}
+.marked-column{
+  border-left: 0.1rem solid blue;
+  width: 50px;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+}
+
+table th,td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+
+.marked-column div {
+  width: 80%;
+}
+.center-data td {
+  width: 50px;
+  text-align: center;
+}
+
+.center-data  div {
+  width: 80%;
+  /* Adjust the width as needed */
+}
+.marked-column1 {
+  border-left: 0.1rem solid green;
+  width: 50px;
+  text-align: center;
+}
+
