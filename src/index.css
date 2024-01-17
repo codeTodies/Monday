@@ -139,4 +139,7 @@ table th,td {
   width: 50px;
   text-align: center;
 }
-
+.group-btn button{
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
