@@ -6,12 +6,10 @@ import logo from './../../assets/Monday_logo.png';
 function WorkAndRole() {
         const [value,setValue]=useState(0);
         const onChange=(e)=>{
-            console.log('radio checked', e.target.value);
             setValue(e.target.value);
         }
         const [valueW,setValueW]=useState(0);
         const onChangeW=(e)=>{
-            console.log('radio op checked', e.target.value);
             setValueW(e.target.value);
         }
        const Work = () => {
