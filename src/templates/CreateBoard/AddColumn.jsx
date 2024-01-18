@@ -139,12 +139,12 @@ const data1 = [
                 </div>
               </div>
                <div className='d-flex justify-content-between align-items-center'>
-                    <div className='continue d-flex btn-continue'>
+                    <div className='continue d-flex'>
                         <Button icon={<LeftOutlined/>} className='d-flex align-items-center text-center'  style={{height: '2.5rem' }}>
                             Back
                         </Button>
                     </div>
-                    <div className=' d-flex ms-auto btn-continue'>
+                    <div className=' d-flex ms-auto'>
                         <Button className='d-flex align-items-center text-center' type='primary' style={{height: '2.5rem' }}>
                             Continue <RightOutlined style={{ marginLeft: '5px' }} />
                         </Button>
