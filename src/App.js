@@ -7,11 +7,12 @@ import Invite from './../src/templates/SignUp/Invite.jsx';
 import StartCreate from './templates/CreateBoard/StartCreate.jsx';
 import AddColumn from './templates/CreateBoard/AddColumn.jsx';
 import TaskOrProject from './templates/CreateBoard/TaskOrProject.jsx';
+import ChooseBoard from './templates/CreateBoard/ChooseBoard.jsx';
 
 function App() {
   return (
     <div className="App">
-      <TaskOrProject/>
+      <ChooseBoard/>
     </div>
   );
 }
