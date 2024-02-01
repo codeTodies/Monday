@@ -8,11 +8,12 @@ import StartCreate from './templates/CreateBoard/StartCreate.jsx';
 import AddColumn from './templates/CreateBoard/AddColumn.jsx';
 import TaskOrProject from './templates/CreateBoard/TaskOrProject.jsx';
 import ChooseBoard from './templates/CreateBoard/ChooseBoard.jsx';
+import CreateTask from './templates/CreateBoard/CreateTask.jsx';
 
 function App() {
   return (
     <div className="App">
-      <ChooseBoard/>
+      <CreateTask/>
     </div>
   );
 }
