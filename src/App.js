@@ -13,7 +13,7 @@ import CreateTask from './templates/CreateBoard/CreateTask.jsx';
 function App() {
   return (
     <div className="App">
-      <WorkAndRole/>
+      <CreateTask/>
     </div>
   );
 }
