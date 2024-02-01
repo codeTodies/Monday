@@ -1,8 +1,8 @@
 import React from 'react'
 import {Input, Button} from 'antd';
 import { RightOutlined } from '@ant-design/icons';
-import logo from './../assets/Monday_logo.png';
-import bg from './../assets/CreateAcc.png'
+import logo from './../../assets/Monday_logo.png'
+import bg from './../../assets/CreateAcc.png'
 function CreateAcc() {
   return (
     <div className='d-grid signup'>
@@ -26,7 +26,7 @@ function CreateAcc() {
                     <p>Account name</p>
                     <Input placeholder="For example, company's or department's name " style={{width:'30rem',height:'3rem'}} />
                 </div>
-                <div className='continue d-flex ms-auto mt-4'>
+                <div className='continue d-flex ms-auto mt-5'>
                      <Button className='d-flex align-items-center text-center' type='primary' style={{height: '3rem' }}>
                         Continue <RightOutlined style={{ marginLeft: '5px' }} />
                     </Button>

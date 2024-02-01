@@ -1,0 +1,38 @@
+.title{
+    margin-top: 1rem;
+}
+
+.title input{
+    margin-top: 1rem;
+}
+.marked-column {
+    border-left: 0.1rem solid blue;
+    width: 50px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+
+.marked-column div {
+    width: 80%;
+}
+
+.center-data td {
+    width: 50px;
+    text-align: center;
+}
+
+.center-data div {
+    width: 80%;
+    /* Adjust the width as needed */
+}

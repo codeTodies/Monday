@@ -1,18 +1,15 @@
 import React, {useState} from 'react'
-import { RadioChangeEvent } from 'antd';
-import bg from './../assets/workAndRole.png'
+import bg from './../../assets/workAndRole.png'
 import { RightOutlined } from '@ant-design/icons';
 import {Radio, Button} from 'antd';
-import logo from './../assets/Monday_logo.png';
+import logo from './../../assets/Monday_logo.png';
 function WorkAndRole() {
         const [value,setValue]=useState(0);
         const onChange=(e)=>{
-            console.log('radio checked', e.target.value);
             setValue(e.target.value);
         }
         const [valueW,setValueW]=useState(0);
         const onChangeW=(e)=>{
-            console.log('radio op checked', e.target.value);
             setValueW(e.target.value);
         }
        const Work = () => {
@@ -86,37 +83,41 @@ function WorkAndRole() {
 };
 
   return (
-     <div className='d-grid signup'>
-        <div className='layout d-flex flex-column align-items-center'>
-            <div className='d-flex flex-column justify-content-center align-item-center'>
-                <div>
-                    <img src={logo} height={50} />
-                </div>
-                <div className='mt-5 mb-3'>
-                    <h3>Hey there, what bring you here today? </h3>
-                </div>
-                <div className='mt-2'>
-                    <Radio.Group onChange={onChange} value={value}>
-                        <Radio value={1}>Work</Radio>
-                        <Radio value={2}>Personal</Radio>
-                        <Radio value={3}>School</Radio>
-                        <Radio value={4}>Nonprofits</Radio>
-                    </Radio.Group>
-                </div>
-                <div>
-                    <Work value={value} onChangeW={onChangeW}/>
-                </div>
-                <div className='continue d-flex ms-auto mt-4'>
-                     <Button disabled={((value===0 || value===1|| value===3 || value===4)&&valueW===0) } className='d-flex align-items-center text-center' type='primary' style={{height: '3rem' }}>
-                        Continue <RightOutlined style={{ marginLeft: '5px' }} />
-                    </Button>
+     <div className='container-fluid'>
+        <div style={{width:'100vw',height:'100vh'}} className='d-flex row'>
+            <div className='d-flex justify-content-center col-lg-6 col-md-12'>
+                <div className='d-flex flex-column align-items-center'>
+                    <div className='d-flex flex-column justify-content-center align-item-center'>
+                        <div>
+                            <img src={logo} height={50} alt='logo' />
+                        </div>
+                        <div className='mt-5 mb-3'>
+                            <h3>Hey there, what bring you here today? </h3>
+                        </div>
+                        <div className='mt-2'>
+                            <Radio.Group onChange={onChange} value={value}>
+                                <Radio value={1}>Work</Radio>
+                                <Radio value={2}>Personal</Radio>
+                                <Radio value={3}>School</Radio>
+                                <Radio value={4}>Nonprofits</Radio>
+                            </Radio.Group>
+                        </div>
+                        <div>
+                            <Work value={value} onChangeW={onChangeW}/>
+                        </div>
+                        <div className='continue d-flex ms-auto mt-4'>
+                            <Button disabled={((value===0 || value===1|| value===3 || value===4)&&valueW===0) } className='d-flex align-items-center text-center' type='primary' style={{height: '3rem' }}>
+                                Continue <RightOutlined style={{ marginLeft: '5px' }} />
+                            </Button>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div className='bg col-lg-6 d-lg-block d-md-none'>
+                <img src={bg} alt="signup" />
+            </div>
         </div>
-         <div className='bg d-flex justify-content-end overflow-hidden'>
-            <img src={bg} alt="signup" />
-        </div>
-    </div>
+     </div>
   )
 }
 
